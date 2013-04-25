@@ -3,7 +3,6 @@ TheHelloWorldMorseCodeGame
 
 Arduino game for Sparkfun's ProtoSnap
 
-http://en.wikipedia.org/wiki/Morse_code
 Sparkfun DesignWest 2013 Challenge
 Author: Mathew Fleisch
 Title: The "Hello World" Morse Code Game
@@ -31,3 +30,5 @@ if I accidentally duplicated somebody else's game/program and/or if I
 did something silly or wrong. I hope you enjoy and can rerun my code
 on your own board.
 ~Mathew
+
+Ref: http://en.wikipedia.org/wiki/Morse_code

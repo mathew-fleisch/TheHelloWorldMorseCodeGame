@@ -1,6 +1,6 @@
 
 /* http://en.wikipedia.org/wiki/Morse_code */
-//Sparkfun DesignWest 2013 Callenge
+//Sparkfun DesignWest 2013 Challenge
 //Author: Mathew Fleisch
 //Title: The "Hello World" Morse Code Game
 //This program uses Sparkfun's ProtoSnap board or other arduino board
@@ -217,6 +217,7 @@ void loop(){
               delay(100);
               digitalWrite(greenPin, HIGH);
               Serial.print(letters[crntLetter]);
+              //The actual game starts here
               if(letters[crntLetter] == game[crnt]) {
                 tone(tonePin, (crnt*100), 30);
                 crnt++;
@@ -230,6 +231,7 @@ void loop(){
               if(crnt) {
                 Serial.print(" +");
               }
+              //End of game... not too long eh?
               Serial.println("");
             } else {
               tone(tonePin, 100, 100);
