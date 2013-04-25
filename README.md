@@ -4,8 +4,11 @@ TheHelloWorldMorseCodeGame
 Arduino game for Sparkfun's ProtoSnap
 
 Sparkfun DesignWest 2013 Challenge
+
 Author: Mathew Fleisch
+
 Title: The "Hello World" Morse Code Game
+
 This program uses Sparkfun's ProtoSnap board or other Arduino board
 with a button, buzzer, and rgb led attached to the specified pins below.
 The concept of the program is to input morse code via a button, and have
@@ -19,6 +22,7 @@ like tone-blips as each letter is spelled correctly. If the user spells
 the target word (target because you the programmer, can change "hello 
 world" to any other string of chars) incorrectly, they have to start
 at the beginning of the game, with the first letter.
+
 Note: My button and RGB LED were both backwards via code, so you might
 need to adjust some variables to get your board to work correctly.
 (0 == Pressed, 1 == Not Pressed for buttons; and HIGH on the RGB
